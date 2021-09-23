@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,33 +9,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
     <title>Dolar / Real</title>
+    <script src="./action.js"></script>
 </head>
+
 <body>
+    <header>
+         <h1 class="title-page">Conversor de moedas</h1>
+    </header>
+    
     <div class="container">
-        
+
         <div class="box-moneydolar">
-             <h1 class="title-page">Conversor de moedas</h1>
-             <h2 class="subtitle-page">De Dolar pra Real</h2>
-             <label for="money">Insira um valor em Dolar</label><br><br>
-             <input type="number" id="value1">
-             <button type="submit" onclick="clickfound0()">Converter</button><br>
-             <output>
-                 <h2 id="conversionValue0"></h2>
-             </output>
+            <div class="group">
+                <h2 class="subtitle-page">De Dolar pra Real</h2>
+                <label for="money">Insira um valor em Dolar</label><br><br>
+                <input type="number" id="value1">
+                <button type="submit" onclick="clickfound0()">Converter</button><br>
+                <output>
+                    <h2 id="conversionValue0"></h2>
+                </output>
+            </div>
+
         </div>
         <div class="box-money">
-             <h2 class="subtitle-page">De Real pra Dolar</h2>
-             <label for="money">Insira um valor em Real</label><br><br>
-             <input type="number" id="value2">
-             <button type="submit" onclick="clickfound1()">Converter</button><br>
-             <output>
-                 <h2 id="conversionvalue1"></h2>
-             </output>
-        </div>    
-        <img src="./assets/download" alt="">
+            <div class="group">
+                <h2 class="subtitle-page">De Real pra Dolar</h2>
+                <label for="money">Insira um valor em Real</label><br><br>
+                <input type="number" id="value2">
+                <button type="submit" onclick="clickfound1()">Converter</button><br>
+                <output>
+                    <h2 id="conversionValue1"></h2>
+                </output>
+            </div>
+
+        </div>
     </div>
-    
-    
+
+
 </body>
+
 </html>
