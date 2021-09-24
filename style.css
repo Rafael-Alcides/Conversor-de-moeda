@@ -2,25 +2,108 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    text-decoration: none;
 } 
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgb(168, 168, 179);
-    height: 6rem;
-    min-width:100%;
-    margin-bottom: 7rem;
+body {
+    background:rgba(255, 255, 255, 1)
 }
 
-body {
-   display: flex;
-   align-items: center;
-   justify-content:center;
-   
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background: #9c63c0;
+    height: 5rem;
+    align-items: center;
+    margin-bottom: 3rem;
 }
+
+.title-page {
+    margin-left: 4rem;
+    font-family: monospace;
+    font-size: 3rem;
+    color:white
+}
+
+main .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 100vh;
+    padding: 0 2rem;
+}
+
+.group {
+    border: 3px solid #9c63c0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    height: 25rem;
+    border-radius: 1rem;
+}
+
+.group .subtitle-page {
+    font-size: 3rem;
+    font-family: monospace;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    color: #9c63c0;
+    text-align: center;
+}
+
+.container label {
+    color: #9c63c0;
+    font-size: 15px;
+    font-family: monospace;
+    margin-left: 1rem;
+    
+}
+
+.container .group input {
+    margin-bottom: 3rem;
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid #9c63c0;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.container .group button {
+    width: 20rem;
+    height: 4rem;
+    border: 1px solid #9c63c0;
+    background-color: rgb(76, 6, 119);
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.container .group button:hover {
+    background-color: #9c63c0;
+}
+
+footer {
+    display: flex;
+    background-color:#9c63c0;
+    margin-top: 3rem;
+    height: 11rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h2 {
+    margin-left: 4rem;
+    font-family: monospace;
+    font-size: 2rem;
+    color:white
+}
+
+
 
 
 
