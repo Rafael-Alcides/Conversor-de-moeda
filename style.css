@@ -18,6 +18,12 @@ header .container {
     margin-bottom: 3rem;
 }
 
+#moeda {
+    margin-left: 8px;
+    height: 3rem;
+    color: rgb(76, 6, 119);
+}
+
 .title-page {
     margin-left: 4rem;
     font-family: monospace;
